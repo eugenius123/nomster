@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2fd9b04-46f2-4deb-b2c0-85e2e2455860" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/mailers/notification_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/notification_mailer/comment_added.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/notification_mailer/comment_added.text.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/notification_mailer_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mailers/previews/notification_mailer_preview.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mac.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../mac.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../es6-playground/node_modules/.bin/babylon" beforeDir="false" afterPath="$PROJECT_DIR$/../es6-playground/node_modules/.bin/babylon" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../es6-playground/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/../es6-playground/node_modules/.bin/jsesc" afterDir="false" />
@@ -23,8 +18,7 @@
       <change beforePath="$PROJECT_DIR$/../firehose-test-app/bin/spring" beforeDir="false" afterPath="$PROJECT_DIR$/../firehose-test-app/bin/spring" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../firehose-test-app/bin/update" beforeDir="false" afterPath="$PROJECT_DIR$/../firehose-test-app/bin/update" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/comment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/comment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tools/firehose-vagrant.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tools/vagrant.command" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools/vagrant.command" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../windows.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../windows.md" afterDir="false" />
@@ -55,7 +49,7 @@
           <entry key="css" value="1" />
           <entry key="erb" value="21" />
           <entry key="js" value="2" />
-          <entry key="rb" value="86" />
+          <entry key="rb" value="87" />
           <entry key="scss" value="9" />
           <entry key="yml" value="3" />
         </counts>
@@ -65,7 +59,7 @@
           <entry key="CSS" value="1" />
           <entry key="JavaScript" value="2" />
           <entry key="RHTML" value="21" />
-          <entry key="Ruby" value="92" />
+          <entry key="Ruby" value="93" />
           <entry key="SCSS" value="9" />
           <entry key="YAML" value="3" />
         </counts>
@@ -75,7 +69,7 @@
           <entry key="Gemfile" value="142" />
           <entry key="erb" value="1968" />
           <entry key="js" value="2" />
-          <entry key="rb" value="2253" />
+          <entry key="rb" value="2256" />
           <entry key="scss" value="362" />
           <entry key="yml" value="135" />
         </counts>
@@ -84,7 +78,7 @@
         <counts>
           <entry key="JavaScript" value="2" />
           <entry key="RHTML" value="1968" />
-          <entry key="Ruby" value="2395" />
+          <entry key="Ruby" value="2398" />
           <entry key="SCSS" value="362" />
           <entry key="YAML" value="135" />
         </counts>
@@ -156,11 +150,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -189,7 +192,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/fonts.scss" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/places/new.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20180807234907_alter_places_add_user_id_column.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
@@ -220,6 +222,7 @@
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/mailers/notification_mailer.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -267,6 +270,17 @@
               <item name="nomster" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nomster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nomster" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nomster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nomster" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,7 +431,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38857000" />
+    <option name="totallyTimeSpent" value="39083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1493" y="-420" width="1400" height="808" extended-state="0" />
@@ -688,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/places/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -769,6 +776,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
