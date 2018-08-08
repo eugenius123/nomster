@@ -1,4 +1,8 @@
 Rails.application.configure do
+  # production log in with Devise reminder emails
+  config.action_mailer.default_url_options = { host: 'nomster-eugene-yu.herokuapp.com/' }
+
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
