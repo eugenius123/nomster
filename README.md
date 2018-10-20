@@ -1,24 +1,15 @@
-# README
+# Nomster
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Nomster](https://nomster-eugene-yu.herokuapp.com/)
 
-Things you may want to cover:
+Nomster is a yelp clone with the ability for users sign up for an account and then upload restaurants and reviews.
 
-* Ruby version
+This project was built over two weeks and utilizes Rails/PostgreSQL on the backend.
 
-* System dependencies
+## Features:
 
-* Configuration
+* Geocoding addresses and google map integration
 
-* Database creation
+* User sign up and authentication via Devise
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Comments and rating of restaurant posts
